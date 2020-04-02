@@ -20,12 +20,12 @@
 
     <distributionManagement>
         <repository>
-            <id>yqcloud-releases</id>
-            <url>http://nexus.cloopm.com/repository/yqcloud-releases</url>
+            <id>releases</id>
+            <url>http://192.168.1.6/repository/releases</url>
         </repository>
         <snapshotRepository>
-            <id>yqcloud-snapshots</id>
-            <url>http://nexus.cloopm.com/repository/yqcloud-snapshots/</url>
+            <id>snapshots</id>
+            <url>http://192.168.1.6/repository/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
