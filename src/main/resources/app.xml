@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"
+           xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+           xmlns:xdr="http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing"
+           xmlns:x14="http://schemas.microsoft.com/office/spreadsheetml/2009/9/main"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:etc="http://www.wps.cn/officeDocument/2017/etCustomData">
+    <sheetPr/>
+    <dimension ref="A1:E8"/>
+    <sheetViews>
+        <sheetView tabSelected="1" workbookViewId="0">
+            <selection activeCell="E8" sqref="E8"/>
+        </sheetView>
+    </sheetViews>
+    <sheetFormatPr defaultColWidth="21" defaultRowHeight="13.5" outlineLevelRow="7" outlineLevelCol="4"/>
+    <cols>
+        <col min="1" max="1" width="7" customWidth="1"/>
+        <col min="2" max="5" width="22" customWidth="1"/>
+    </cols>
+    <sheetData>
+        <row r="1" ht="15" spans="1:5">
+            <c r="A1" s="1" t="s">
+                <v>0</v>
+            </c>
+            <c r="B1" s="1" t="s">
+                <v>1</v>
+            </c>
+            <c r="C1" s="1" t="s">
+                <v>2</v>
+            </c>
+            <c r="D1" s="1" t="s">
+                <v>3</v>
+            </c>
+            <c r="E1" s="1" t="s">
+                <v>4</v>
+            </c>
+        </row>
+        <row r="2" ht="15" spans="1:5">
+            <c r="A2" s="1" t="s">
+                <v>5</v>
+            </c>
+            <c r="B2" s="1" t="s">
+                <v>6</v>
+            </c>
+            <c r="C2" s="1" t="s">
+                <v>7</v>
+            </c>
+            <c r="D2" s="1" t="s">
+                <v>8</v>
+            </c>
+            <c r="E2" s="1" t="s">
+                <v>9</v>
+            </c>
+        </row>
+        <row r="3" spans="1:5">
+            <c r="A3" t="s">
+                <v>10</v>
+            </c>
+            <c/>
+            <c r="E3" t="s">
+                <v>4</v>
+            </c>
+        </row>
+        <row r="4" spans="1:5">
+            <c r="A4" t="s">
+                <v>12</v>
+            </c>
+            <c r="B4" t="s">
+                <v>1</v>
+            </c>
+            <c r="C4" t="s">
+            </c>
+            <c r="D4" t="s">
+                <v>3</v>
+            </c>
+            <c r="E4" t="s">
+                <v>4</v>
+            </c>
+        </row>
+        <row r="5" spans="1:5">
+            <c r="A5" t="s">
+                <v>13</v>
+            </c>
+            <c r="B5" t="s">
+                <v>14</v>
+            </c>
+            <c r="C5" t="s">
+                <v>15</v>
+            </c>
+            <c r="D5" t="s">
+                <v>16</v>
+            </c>
+            <c r="E5" t="s">
+                <v>17</v>
+            </c>
+        </row>
+        <row r="6" spans="1:5">
+            <c r="A6" t="s">
+                <v>18</v>
+            </c>
+            <c r="B6" t="s">
+                <v>11</v>
+            </c>
+            <c r="C6" t="s">
+                <v>19</v>
+            </c>
+            <c r="D6" t="s">
+                <v>3</v>
+            </c>
+            <c r="E6" t="s">
+                <v>4</v>
+            </c>
+        </row>
+        <row r="7" spans="1:5">
+            <c r="A7" t="s">
+                <v>20</v>
+            </c>
+            <c r="B7" t="s">
+                <v>10</v>
+            </c>
+            <c r="C7" t="s">
+                <v>10</v>
+            </c>
+            <c r="D7" t="s">
+                <v>10</v>
+            </c>
+            <c r="E7" t="s">
+                <v>10</v>
+            </c>
+        </row>
+        <row r="8" spans="3:5">
+            <c r="C8">
+                <v>2</v>
+            </c>
+            <c r="D8">
+                <v>2</v>
+            </c>
+            <c r="E8">
+                <v>2</v>
+            </c>
+        </row>
+    </sheetData>
+    <dataValidations count="5">
+        <dataValidation type="custom" showInputMessage="1" promptTitle="鎻愮ず" prompt="杈撳叆绾枃鏈唴瀹�" sqref="D3:D103"
+                        errorStyle="warning">
+            <formula1>test</formula1>
+        </dataValidation>
+        <dataValidation type="whole" operator="notBetween" sqref="A3:A103" errorStyle="warning">
+            <formula1>test</formula1>
+            <formula2>test</formula2>
+        </dataValidation>
+        <dataValidation type="list" sqref="B3:B103" errorStyle="warning">
+            <formula1>&quot;浜у搧1,浜у搧2&quot;</formula1>
+        </dataValidation>
+        <dataValidation type="list" sqref="C3:C103" errorStyle="warning">
+            <formula1>&quot;閽㈢1,閽㈢2&quot;</formula1>
+        </dataValidation>
+        <dataValidation type="custom" sqref="E3:E103" errorStyle="warning">
+            <formula1>test</formula1>
+        </dataValidation>
+    </dataValidations>
+    <pageMargins left="0.7" right="0.7" top="0.75" bottom="0.75" header="0.3" footer="0.3"/>
+    <headerFooter/>
+</worksheet>

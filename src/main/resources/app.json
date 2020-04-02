@@ -1,0 +1,101 @@
+[
+
+  {
+    "host":"test-host-two",
+    "name":"create_host-two",
+    "status":0,
+    "__status":"add",
+    "groups":[
+      {
+        "groupid":23,
+        "name":"test-two"
+
+      }
+    ],
+    "interfaces": [
+      {
+        "type": 1,
+        "main": 1,
+        "useip": 1,
+        "ip": "192.168.1.4",
+        "dns": "",
+        "port": 10050
+      }
+    ],
+    "templates": [
+      "10297"
+    ]
+  },
+  {
+    "host":"test-host-three",
+    "name":"create_host-three",
+    "__status":"add",
+    "status":0,
+    "groups":[
+      {
+        "groupid":24,
+        "name":"test-three"
+
+      }
+    ],
+    "interfaces": [
+      {
+        "type": 1,
+        "main": 1,
+        "useip": 1,
+        "ip": "192.168.1.5",
+        "dns": "",
+        "port": 10050
+      }
+    ],
+    "templates": [
+      "10297"
+    ]
+  },
+
+
+
+
+  [
+
+    {
+      "hostid": 10301,
+      "host":"test-host-two",
+      "name":"create_host-two",
+      "status":1,
+      "__status":"update",
+      "groups":[
+        {
+          "groupid":23,
+          "name":"test-two"
+
+        }
+      ],
+      "templates": [
+        "10297"
+      ]
+    },
+    {
+      "hostid": 10302,
+      "host":"test-host-three",
+      "name":"create_host-three",
+      "__status":"update",
+      "status":1,
+      "groups":[
+        {
+          "groupid":24,
+          "name":"test-three"
+
+        }
+      ],
+      "templates": [
+        "10297"
+      ]
+    }
+
+  ]
+
+
+]
+
+
