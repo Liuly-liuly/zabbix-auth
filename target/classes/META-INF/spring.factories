@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.yanqiancloud.zabbixauth.config.ZabbixConfig
+com.liuly.zabbixauth.config.ZabbixConfig
